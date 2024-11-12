@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="main-container">
+  <div class="form-container">
+      <h2>Register Form</h2>
+      <form action="">
+          <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+              <label for="password">Password</label>
+              <input type="password" id="password" name="password" required>
+          </div>
+          <div class="form-group">
+              <label for="confirm password">Confirm Password</label>
+              <input type="password" id="confirm password" name="confirm password" required>
+          </div>
+          <div class="form-group">
+              <label>Gender</label>
+              <div class="radio-group">
+                  <label><input type="radio" name="gender" value="male" required>Male</label>
+                  <label><input type="radio" name="gender" value="female" required>Female</label>
+                  <label><input type="radio" name="gender" value="other" required >Other</label>
+              </div>
+
+          </div>
+          <div class="form-group">
+              <label for="county">County</label>
+              <select name="county" id="county">
+                  <option value="Nairobi">Nairobi</option>
+                  <option value="Mombasa">Mombasa</option>
+                  <option value="Kisumu">Kisumu</option>
+                  <option value="Eldoret">Eldoret</option>
+                  <option value="Nakuru">Nakuru</option>
+              </select>
+          </div>
+          <div>
+              <button type="submit"><i class="fa fas-user "></i>Register</button>
+          </div>
+      </form>
+      <div class="note">
+          Already have an account? <a href="">Login here</a>
+      </div>
+  </div>
+    <div class="table-container">
+        <h2>Table with a registered Users</h2>
+        <table>
+            <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Gender</th>
+                <th>County</th>
+                <tbody>
+        <tr>
+            <td>John Doe</td>
+            <td>doe@gmail.com</td>
+            <td>Male</td>
+            <td>Nairobi</td>
+        </tr>
+        <tr>
+            <td>Alice Njoki</td>
+            <td>njoki@gmail.com</td>
+            <td>Female</td>
+            <td>Mombasa</td>
+        </tr>
+        <tr>
+            <td>Peter Wafula</td>
+            <td>peter@gmail.com</td>
+            <td>Male</td>
+            <td>Kisumu</td>
+        </tr>
+        </tbody>
+        </table>
+    </div>
+</div>
+</body>
+</html>
